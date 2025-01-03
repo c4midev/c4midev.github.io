@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>c4mi.dev</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <span class="header__title">c4mi.dev</span>
+      <nav class="header__nav">
+        <a href="#about-me">About Me</a>
+        <a href="#projects">My Projects</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main__hero">
+        <h1 class="main__hero__title">Camilo</h1>
+        <p class="main__hero__desc">Web Developer</p>
+      </section>
+
+      <section class="main__about-me" id="about-me">
+        <h2 class="main__about-me__title">About Me</h2>
+        <div class="main__about-me__paragraph">
+          <figure class="main__about-me__paragraph__figure">
+            <img
+              src="assets/avatar.jpg"
+              alt="avatar"
+              class="main__about-me__paragraph__figure__image"
+            />
+            <figcaption>Image: N from Murder Drones</figcaption>
+          </figure>
+          <p class="main__about-me__paragraph__content">
+            I’m a passionate programmer with experience in HTML, CSS,
+            JavaScript, Python, NodeJS, SQL, and Git. I’m currently expanding my
+            skills by learning React and TypeScript. I specialize in creating
+            efficient and scalable web solutions, with a focus on continuous
+            improvement and adopting new technologies.
+            <br />
+            <img src="assets/lang/html.svg" class="lang" />
+
+            <img src="assets/lang/css.png" class="sp-lang" />
+
+            <img src="assets/lang/javascript.svg" class="lang" />
+
+            <img src="assets/lang/react.svg" class="lang" />
+
+            <img src="assets/lang/python.svg" class="lang" />
+
+            <img src="assets/lang/vscode.svg" class="lang" />
+          </p>
+        </div>
+      </section>
+
+      <section class="main__projects" id="projects">
+        <h2 class="main__projects__title">My Projects</h2>
+        <div id="projects-container" class="main__projects__container">
+          <!-- Projects will be dynamically loaded here -->
+        </div>
+      </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="src/script.js"></script>
+  </body>
+</html>
